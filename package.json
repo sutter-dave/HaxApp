@@ -1,0 +1,16 @@
+{
+  "name"    : "hax-app",
+  "version" : "0.2.0",
+  "main"    : "main.js",
+  "dependencies": {
+    "esprima": "^2.7.2",
+	"handsontable": "^0.28.4",
+	"ace-builds": "^1.2.3",
+    "hax-lib-electron": "^0.2.0"
+  },
+  "author": "Dave Sutter",
+  "repository": {
+      "type": "git",
+      "url": "http://github.com/sutter-dave/haxelectron.git"
+  }
+}
