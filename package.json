@@ -1,12 +1,13 @@
 {
   "name"    : "hax-app",
-  "version" : "0.2.0",
+  "version" : "0.3.0",
   "main"    : "main.js",
   "dependencies": {
     "esprima": "^2.7.2",
 	"handsontable": "^0.28.4",
 	"ace-builds": "^1.2.3",
-    "hax-lib-electron": "^0.2.0"
+    "hax-core-lib": "^0.3.0",
+    "hax-app-lib": "^0.3.0"
   },
   "author": "Dave Sutter",
   "repository": {

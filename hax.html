@@ -4,7 +4,7 @@
 		<title></title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script type="text/javascript" src="./node_modules/ace-builds/src-min/ace.js"></script>
-		<link rel="stylesheet" type="text/css" href="./node_modules/hax-lib-electron/hax-lib.css">
+		<link rel="stylesheet" type="text/css" href="./node_modules/hax-app-lib/hax-lib.css">
         <link rel="stylesheet" type="text/css" href="./node_modules/handsontable/dist/handsontable.full.min.css">
 		<style id="styles_for_doc">
 			body {
@@ -62,11 +62,11 @@
             'use strict'
             var app = null;
 			var Handsontable = require('handsontable');
-			var esprima = require('esprima');
-			var hax = require('hax-lib-electron');
+			var hax = require('hax-core-lib');
+            var haxapp = require('hax-app-lib');
 			function init() {
-				hax.visiui.initResourcePath("./node_modules/hax-lib-electron/resources");
-                app = new hax.app.visiui.Hax("appContainer");
+				haxapp.ui.initResourcePath("./node_modules/hax-lib-electron/resources");
+                app = new haxapp.app.Hax("appContainer");
             }
             
             function registerComponent(controlBundle) {

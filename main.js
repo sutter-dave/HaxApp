@@ -18,6 +18,9 @@ function createWindow () {
     slashes: true
   }))
   
+   // Open the DevTools.
+  win.webContents.openDevTools()
+  
   win.on('close',(e) => {
 	  const {dialog} = require('electron');
 	  var result = dialog.showMessageBox({
